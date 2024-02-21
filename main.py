@@ -6,7 +6,7 @@
    ##################################################
    # Code your program here
    ##################################################
-    overtime = workhours - reg_hours
+    overtime_hours = work_hours - 40
     overtime_wage = overtime * ov_rate
     regular_wage = reg_hours * reg_rate
     total_wage = regular_wage + overtime_wage
