@@ -19,3 +19,5 @@ workhours = int(input('Enter your work hours:'))
    # Do not delete the return statement
    ##################################################
     return regular_wage, overtime_wage, total_wage
+
+pytest -rP 
