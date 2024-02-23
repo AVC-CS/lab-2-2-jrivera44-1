@@ -1,3 +1,5 @@
+def main():
+
     workhours = int(input('Enter your work hours:'))
     reg_hours = 40
     reg_rate = 18.25
@@ -20,4 +22,5 @@
     ##################################################
     return regular_wage, overtime_wage, total_wage
 
-
+if __name__ == '__main__':
+    main()
