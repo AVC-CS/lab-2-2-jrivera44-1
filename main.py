@@ -1,4 +1,4 @@
-workhours = int(input('Enter your work hours:'))
+    workhours = int(input('Enter your work hours:'))
     reg_hours = 40
     reg_rate = 18.25
     ov_rate = 27.78
